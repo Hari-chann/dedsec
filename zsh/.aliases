@@ -37,5 +37,17 @@ alias hm_off='heroku maintenance:off'
 # Postgres commands
 alias run_psql='sudo -i -u postgres psql'
 alias pg_res='pg_restore -h localhost -U rails -d'
-alias ajb_dump_mv='mv "/media/yanagi/Home/Ubuntu Files/proj/ajb/latest.dump" "/media/yanagi/Home/Ubuntu Files/proj/test"'
+alias ajb_dump_mv='mv "~/proj/ajb/latest.dump" "~/proj/test"'
+
+# scrcpy cmd
+alias aip_route='adb shell ip route'
+alias atcp='adb tcpip 5555'
+alias aconn='adb connect'
+
+# kill ruby process / server
+alias f_ruby='lsof -i tcp:3000'
+alias kill_p='kill -9'
+
+#snaps
+alias gameboy='visualboyadvance-m'
 
